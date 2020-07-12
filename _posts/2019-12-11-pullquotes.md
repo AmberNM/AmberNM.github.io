@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Workforce Development I & II (CS 410/411W)
-categories:
+categories: [HTML,Code]
 excerpt: Provides students with challenges of business environments in developing a technology based project. Students identify a societal problem, identify solutions, define project solutions, develop project objectives, conduct feasibility analysis, establish organizational group structure to meet project objectives and develop formal specifications. Students make formal technical project presentations and develop web documentation. Students will design and develop a project prototype, and demonstrate the prototype to a formal panel along with delivering the formal product specifications and a draft formal grant proposal.
 ---
 
-Provides students with challenges of business environments in developing a technology based project. Students identify a societal problem, identify solutions, define project solutions, develop project objectives, conduct feasibility analysis, establish organizational group structure to meet project objectives and develop formal specifications. Students make formal technical project presentations and develop web documentation. Students will design and develop a project prototype, and demonstrate the prototype to a formal panel along with delivering the formal product specifications and a draft formal grant proposal.
+## Workforce Development I (CS 410)
 
+Provides students with challenges of business environments in developing a technology based project. Students identify a societal problem, identify solutions, define project solutions, develop project objectives, conduct feasibility analysis, establish organizational group structure to meet project objectives and develop formal specifications. Students make formal technical project presentations and develop web documentation.
 
-
+### 
 
 
 
