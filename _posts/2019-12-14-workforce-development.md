@@ -11,7 +11,7 @@ Provides students with challenges of business environments in developing a techn
 
 ### Web Documentation
 
-<embed src="https://www.cs.odu.edu/~cpi/old/410/reds19/" style="width: 100%; height: 50vw;">
+<iframe src="https://www.cs.odu.edu/~cpi/old/410/reds19/" style="width: 100%; height: 50vw;"></iframe>
 
 
 <!-- 
