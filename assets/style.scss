@@ -331,10 +331,7 @@ p > img {
 
 nav {
   float: right;
-  // margin-top: auto; //23px; // @TODO: Vertically middle align
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  padding: 23px, 0, 10px, 0;
   font-family: $helveticaNeue;
   font-size: 18px;
 
