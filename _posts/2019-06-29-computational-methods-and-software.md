@@ -272,7 +272,7 @@ will  be displayed. Note that the precision estimates will vary by architecture/
 
 ## Lin-Reg Approximation C++
 
-Lin-Reg Approximation will take an input file of values, load them into a matrix, and perform both a linear piecewise interpolation as well as a linear approximation. Written in **C++**.
+Lin-Reg Approximation will take an input file of CPU core temp values and perform both a linear piecewise interpolation as well as a linear approximation. Written in **C++**.
 
 ### Requirements
 
