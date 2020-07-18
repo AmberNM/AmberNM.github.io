@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web Programming (CS 418)
-categories: [HTML,CSS,Bootstrap,Linux,Apache,MySQL,PHP]
+categories: [HTML,CSS,Bootstrap,Linux,Apache,MySQL,PHP,Elasticsearch]
 excerpt: Overview of Internet and World Wide Web; web servers and security, HTTP protocol; web application and design; server side scripts and database integration, and programming for the Web.
 ---
 
@@ -15,7 +15,11 @@ Students will construct a single application over the duration of the semester a
 
 This milestone is the first step in building a fully operational search engine site. Your first task is to build the basic framework for the site. The topical focus of the site's questions is up to you (e.g., it can be a site about cars, dogs, programming, etc.) but the functionality must meet the milestone's requirements. Refer to your favorite search engine site for functionality and ideas of topics. Your topic does not need to be original, but you should be able to justify the usage cases and it should be ***ethical***.
 
-*Base requirements*
+
+*I chose to do a search engine around the Billboard Top 100 list because I was able to find a data set that captured the top 100 songs every single week from 08/02/1958 - 06/22/2019. I chose to name my project BassLine to give it a functional name*
+
+
+***Base Requirements:***
 1. The website should provide a search box at the landing page;
 2. There should be a search button next to the search box;
 
@@ -23,7 +27,7 @@ This milestone is the first step in building a fully operational search engine s
 
 3. Users must be able to register new accounts using email addresses;
 
-	![Bassline Registration Page](/images/web-programming/Register-Test-User-Screen.png)
+	![Bassline Registration Page](/images/web-programming/Register-Test-User.png)
 
 4. Users cannot register duplicate accounts using the same email address, or phone
 number;
@@ -111,17 +115,22 @@ number;
     }
 ```
 
-7. Users should be able to reset their passwords if they forget it;
-8. The website should have a homepage for each user, where they can view their profiles,
+7. The website should have a homepage for each user, where they can view their profiles,
 change passwords, and update demographic information.
 
+	![Bassline User Landing Page](/images/web-programming/Test-User-Landing-Page.png)
+
+8. Users should be able to reset their passwords if they forget it;
+
 	![Bassline Profile Page](/images/web-programming/Test-User-Profile-Screen.png)
+
+
 
 #### Milestone 2
 
 In this milestone, you will build the search function in your search engine using elasticsearch and PHP or JavaScript.
 
-*Base requirements:*
+***Base Requirements:***
 
 1. The website should index at least 1000 documents;
 
@@ -186,6 +195,7 @@ if($query['hits']['total'] >=1 ) {
 }
 ```
 
+
 6. The website has an “Advanced Search” in which users can specify more information;
 
 	![User view of Advanced Search](/images/web-programming/Advanced-Search-Function.png)
@@ -194,11 +204,13 @@ if($query['hits']['total'] >=1 ) {
 
 	![Results of Advanced Search](/images/web-programming/Advanced-Search-Results.png)
 
+
+
 #### Milestone 3
 
 In this milestone, you will enhance the search engine by adding more features to make searching more secure, transparent, and user friendly.
 
-*Base requirements:*
+***Base Requirements:***
 1. The search engine can return paginated results;
 2. The search engine can highlight results that contain search terms;
 3. The SERP should display the actual term (after sanitization) shown on top;
@@ -213,7 +225,7 @@ more information of the item;
 
 5. Users have to login first to save search history to their profiles;
 
-	<embed src="/images/web-programming/Cannot-Save-Without-Login.mp4">
+	![Cannot Save Without Login](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
 
 6. Users can save items in search result to their profiles;
 
@@ -269,14 +281,14 @@ more information of the item;
 
 7. reCAPTCHA should be used for both the logging in and the signing up page;
 
-	![Bassline Registration Page](/images/web-programming/Register-Test-User-Screen.png)
+	![Bassline Registration Page](/images/web-programming/Register-Test-User.png)
 	![Bassline Login Page](/images/web-programming/Login-Screen.png)
 
 #### Milestone 4
 
 In this milestone, you will enhance the search engine by adding more features to make searching more secure, transparent, and user friendly.
 
-*Base requirements:*
+***Base Requirements:***
 1. Users can delete items from their favorite list;
 
 	```php
