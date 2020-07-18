@@ -225,7 +225,7 @@ more information of the item;
 
 5. Users have to login first to save search history to their profiles;
 
-	![Cannot Save Without Login](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+	![Cannot Save Without Login](https://github.com/AmberNM/AmberNM.github.io/blob/master/images/web-programming/Cannot-Save-Without-Login.gif)
 
 6. Users can save items in search result to their profiles;
 
