@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Computational Methods and Software (CS 417)
-categories: [C++,Object Oriented Programming (OOP)]
+categories: [C++,OOP]
 excerpt: Algorithms and software for fundamental problems in scientific computing. Topics: properties of floating point arithmetic, linear systems of equations, matrix factorizations, stability of algorithms, conditioning of problems, least-squares problems, eigenvalue computations, numerical integration and differentiation, nonlinear equations, iterative solution of linear systems.
 ---
 
